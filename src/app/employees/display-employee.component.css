@@ -1,0 +1,14 @@
+.imageClass{
+    height: 200px;
+    width: 200px;
+}
+
+.vertica-align{
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    width: 70px;
+    margin: 3px;
+}

@@ -1,0 +1,20 @@
+
+<div class="form-group">
+  <input type="text" class="form-control" 
+  placeholder="Search By Name"  [(ngModel)]="searchTerm">
+</div>
+<!-- <div class="form-group">
+ <button (click)="ChangeEmployeeName()" class="btn btn-primary">
+   Change Employee Name
+ </button>
+</div> -->
+<!-- <h2 #h2Variable></h2> -->
+<div *ngFor="let employee of filteredEmployees">
+  <div (click)="onClick(employee.id)" class="pointerCursor">
+  <!-- <div (click)="h2Variable.innerHTML = childComponent.getNameAndGender()"> -->
+      <!-- <app-display-employee [employee]="employee"#childComponent> -->
+          <app-display-employee [employee]="employee">
+      </app-display-employee>
+  <!-- </div> --> 
+</div>
+</div>

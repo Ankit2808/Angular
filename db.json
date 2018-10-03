@@ -1,0 +1,50 @@
+{
+  "employees": [
+    {
+    "id":1,
+    "name":"Mark",
+    "gender":"male",
+    "contactPreference":"email",
+    "email":"mark@gmail.com",
+    "dateOfBirth":"1973/06/04",
+    "department":"1",
+    "isActive":true,
+    "photoPath":"assets/image/Mark.png"
+  },
+  {
+    "id":2,
+    "name":"Serena",
+    "gender":"female",
+    "contactPreference":"phone",
+    "phone":9662825787,
+    "dateOfBirth":"1982/11/30",
+    "department":"2",
+    "isActive":true,
+    "photoPath":"assets/image/Serena.png"
+
+  },
+  {
+    "id":3,
+    "name":"Celina",
+    "gender":"female",
+    "contactPreference":"email",
+    "email":"celina@gmail.com",
+    "dateOfBirth":"1994/09/28",
+    "department":"3",
+    "isActive":true,
+    "photoPath":"assets/image/Celina.png"
+
+  },
+  {
+    "id":4,
+    "name":"Jerry",
+    "gender":"male",
+    "contactPreference":"phone",
+    "phone":9662825787,
+    "dateOfBirth":"1981/12/09",
+    "department":"4",
+    "isActive":true,
+    "photoPath":"assets/image/Jerry.png"
+  }
+  ]
+}
